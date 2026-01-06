@@ -1,2 +1,4 @@
 Run command: g++ -Iinclude src/main.cpp src/glad.c -lglfw -lfftw3 -framework OpenGL -o my_app
 to generate executable file "my_app"
+
+ffmpeg -framerate 60 -i ./frames/frame_%05d.png -c:v libx264 -pix_fmt yuv420p output.mp4
