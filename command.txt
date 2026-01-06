@@ -1,0 +1,2 @@
+Run command: g++ -Iinclude src/main.cpp src/glad.c -lglfw -lfftw3 -framework OpenGL -o my_app
+to generate executable file "my_app"

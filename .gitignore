@@ -1,0 +1,17 @@
+# Build artifacts
+opengl_bin
+open_glbin
+*.o
+*.out
+
+# macOS debug symbols
+*.dSYM
+
+# macOS junk
+.DS_Store
+
+# VS Code caches (keep configs!)
+.vscode/ipch/
+.vscode/*.log
+
+.vscode/
